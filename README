@@ -1,0 +1,7 @@
+uses google translate API to translate the given text between a list of languages until parity is reached, eg:
+
+to build run
+
+lein deps && lein uberjar
+
+java -jar translator-1.0-standalone.jar "hello world" "en" "fr" "de"
