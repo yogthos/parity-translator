@@ -8,4 +8,13 @@ lein deps && lein uberjar
 
 then use by providing sample text and languages which it should be translated through
 
-java -jar translator-1.0-standalone.jar "hello world" "en" "fr" "de"
+java -jar translator-1.0-standalone.jar "There are also at least three species of tear-drinking bees, all from Thailand" "en" "de" "cs" "et"
+
+before: There are also at least three species of tear-drinking bees, all from Thailand 
+after:  There are also three types of clothing, drinking bees, all of Thailand
+
+before: There are also three types of clothing, drinking bees, all of Thailand 
+after:  There are three types of clothing, water bee, all of Thailand
+
+original:   There are also at least three species of tear-drinking bees, all from Thailand 
+translated: There are three types of clothing, water bee, all of Thailand
