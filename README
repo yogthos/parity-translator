@@ -1,6 +1,6 @@
 uses google translate API to translate the given text between a list of languages until parity is reached.
 
-change YOUR_KEY string to your own Google API key, which can be obrained at http://www.google.com/url?sa=D&q=http://code.google.com/apis/console/
+change YOUR_KEY string to your own Google API key, which can be obrained at http://code.google.com/apis/console/
 
 to build run
 
